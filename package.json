@@ -1,0 +1,19 @@
+{
+  "name": "module-generator-imweb",
+  "version": "0.0.1",
+  "description": "generator for module",
+  "main": "gruntfile.js",
+  "scripts": {
+    "grunt": "auto basic doc generation",
+    "grunt docstrap": "auto docstrap template doc generation",
+    "grunt clean": "clean files in ./doc/"
+  },
+  "author": "Kevin Kuang",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-jsdoc-update": "0.0.0",
+    "ink-docstrap": "^0.4.12"
+  }
+}
