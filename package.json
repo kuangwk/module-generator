@@ -1,5 +1,5 @@
 {
-  "name": "module-generator-imweb",
+  "name": "module-generator",
   "version": "0.0.1",
   "description": "generator for module",
   "main": "gruntfile.js",
