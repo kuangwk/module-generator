@@ -5,16 +5,10 @@ module.exports = function(grunt) {
   grunt.initConfig({
     clean: ['doc'],
     jsdoc : {
-      basic : {
+      doc: {
         src : ['src/*.js', 'README.md'],
         options : {
-          destination: 'doc/basic'
-        }
-      },
-      docstrap : {
-        src : ['src/*.js', 'README.md'],
-        options : {
-          destination : 'doc/docstrap',
+          destination : 'doc/',
             template : "node_modules/ink-docstrap/template",
             configure : "node_modules/ink-docstrap/template/jsdoc.conf.json"
         }
@@ -26,8 +20,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jsdoc-update');
 
   // Default task.
-  grunt.registerTask('default', ['jsdoc:basic']);
-  grunt.registerTask('docstrap', ['jsdoc:docstrap']);
+  grunt.registerTask('default', []);
+
+  // Doc task
+  grunt.registerTask('doc', ['clean', 'jsdoc:doc']);
   grunt.registerTask('clear', ['clean']);
 
   
