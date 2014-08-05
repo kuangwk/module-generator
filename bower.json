@@ -1,0 +1,21 @@
+{
+  "name": "module-generator",
+  "version": "0.0.3",
+  "homepage": "https://github.com/kuangwk/module-generator",
+  "authors": [
+    "Kevin Kuang <kuangweike@gmail.com>"
+  ],
+  "description": "generator for module",
+  "main": "dist/demo.js",
+  "keywords": [
+    "module"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
