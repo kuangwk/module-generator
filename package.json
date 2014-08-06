@@ -1,8 +1,8 @@
 {
   "name": "module-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "generator for module",
-  "main": "gruntfile.js",
+  "main": "dist/main.js",
   "scripts": {
     "grunt": "",
     "grunt doc": "auto docstrap template doc generation",
