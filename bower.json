@@ -6,7 +6,7 @@
     "Kevin Kuang <kuangweike@gmail.com>"
   ],
   "description": "generator for module",
-  "main": "dist/demo.js",
+  "main": "dist/main.js",
   "keywords": [
     "module"
   ],
