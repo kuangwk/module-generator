@@ -60,8 +60,8 @@ module-generator
 
 * `npm`: 我把对一些已有npm第三方包做了相应修改，并上传到npm
 * `grunt`: 自动化流程，打包，插件使用
-* `grunt-jsdoc-update`： 已有的 `grunt-jsdoc` 项目依赖的 `jsdoc` 版本比较底，我在使用过程中发现有些规范的注释没法分析出来，我就在git上fork他的代码，升级了jsdoc版本，但出现了兼容问题，于是在 `grunt-jsdoc` 上做了相应的修改，然后把修改后的 `grunt-jsdoc-update` 上传到npm供我们自己使用
-* `docstrap-doggy`： 是我根据已有的 grunt-jsdoc 的template： `ink-docstrap`， 加上自定义的主题，然后重新上传的npm包，用于控制jsdoc生成的html说明文档的样式
+* `grunt-jsdoc-update`： 已有的 [grunt-jsdoc](https://github.com/krampstudio/grunt-jsdoc) 项目依赖的 [jsdoc3](https://github.com/jsdoc3/jsdoc) 版本比较低，我在使用过程中发现有些规范的注释没法分析出来，我就在git上fork他的代码，升级了jsdoc版本，但出现了兼容问题，于是在 `grunt-jsdoc` 上做了相应的修改，然后把修改后的 [grunt-jsdoc-update](https://github.com/kuangwk/grunt-jsdoc-update) 上传到npm供自己使用
+* `docstrap-doggy`： 是我根据已有的 grunt-jsdoc 的template： [docstrap](https://github.com/terryweiss/docstrap)， 加上自定义的主题，然后重新上传的npm包，用于控制jsdoc生成的html说明文档的样式
 * `bower`：web前端包管理器
 
 
