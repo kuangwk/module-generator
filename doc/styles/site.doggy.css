@@ -5901,6 +5901,7 @@ body {
 footer {
   border-top: 1px solid #18bc9c;
   padding-top: 15px;
+  margin-top: 50px;
 }
 code {
   background-color: none;
@@ -5953,5 +5954,5 @@ code {
   border-width: 0 1px 0 0;
   font-size: 12px;
   line-height: 15px;
-  padding: 12px 4px !important;
+  padding: 9.5px 4px !important;
 }
